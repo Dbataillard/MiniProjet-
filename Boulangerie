@@ -1,0 +1,15 @@
+#include "Boulangerie.h"
+#include "stdio.h"
+#include <malloc.h>
+
+Element_str* l_gouts;
+File_Commandes* f_commandes;
+File_Degustation* f_degustation;
+
+
+Element_str* initialiser_gouts(){
+    Element_str* chocolat;
+    chocolat = (Element_str*)malloc(sizeof(Element_str));
+    chocolat->texte = "c";
+    chocolat->next;
+}
